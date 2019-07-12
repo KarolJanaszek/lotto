@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:background-image="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Lotto</title>
 </head>
+
 <body>
+
+<div style="background-image:url(//www.fotoomnia.com/zdjecia/thumb/4dccfbae2c5ab26ffd2161a5e010d6e9.jpg);
+width:1280px;height:720px;color:black;font-size:18px;">
 
 <h2>Wylosowane liczby to:</h2>
 <br>
+<form action="/">
 <p th:text="${numbers}"/>
-
+<input type="submit" value="Nowe liczby">
+</form>
+</div>
 </body>
 </html>
